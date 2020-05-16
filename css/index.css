@@ -1,3 +1,6 @@
+*{
+box-sizing: border-box;
+}
 
 h1{
 	font-family: arial;
@@ -21,7 +24,7 @@ section{
 	display: inline-block;
 	margin: 14px;
 	overflow: hidden;
-	box-sizing: border-box
+	
 }
 
 #p1{
