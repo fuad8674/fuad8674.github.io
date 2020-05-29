@@ -8,22 +8,25 @@
 </head>
 <body>
 	<h1></h1>
-	<section id="p1">
+	<section id="p1" onclick="aralik()">
 		
 		<h2 id="head1"></h2>
-		<p>naber la </p>
+		
+		<p id="result"></p>
 	</section>
 			
-	<section id="p2">
-		<h2 id="head2"></h2>
-		<p>naber la</p>
-	</section>		
 	
 
-	<section id="p3">
-		<h2 id="head3"></h2>
-		<p>naber la</p>
-	</section>	
-	
+	<script type="text/javascript">
+
+			 function zar(min,max){
+	return Math.floor(Math.random()*max)+min;
+		}
+
+		function aralik(){
+  document.getElementById('result').innerHTML="sayiniz:"+" "+ zar(1,12);
+
+		}
+	</script>
 </body>
 </html>
