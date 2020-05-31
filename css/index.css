@@ -50,12 +50,14 @@ nav a:hover{
 
 }
 .most{
-	display: inline-block;
-	position: relative;
+	display: block;
+	/*position: relative;
 	bottom: -210px;
-	right: 217px;
+	right: 217px;*/
+
 	width: 16.1%;
 	background-color: #008B8B;
+	margin: 0;
 	margin-top: 8px;
 	border-radius: 8px;
 	padding: 12px;
