@@ -1,0 +1,47 @@
+body{
+  background-color: ;
+}
+a{
+  text-decoration: none;
+}
+#logo{
+  width: 10%;
+}
+h1{
+  color: grey;
+  background-color: #F0F8FF;
+}
+.navbar a:hover{
+  background-color: #F0F8FF;
+}
+.nav-item{
+  text-align: center;
+}
+.sıra{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  margin-top:
+}
+.konular{
+  background-color: #5F9EA0;
+  display: inline-block;
+  height: 120px;
+}
+
+.konu_pic{
+  width: 15%;
+  display: inline-block ;
+
+}
+div{
+  margin: 1%;
+}
+
+
+
+.words_caption{
+  background-color: #2F4F4F;
+  margin: 1%;
+  text-align: center;
+}
