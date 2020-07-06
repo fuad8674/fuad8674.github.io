@@ -1,15 +1,30 @@
 body{
   background-color: ;
+  margin: 1%;
 }
-a{
+a:hover{
+
   text-decoration: none;
 }
 #logo{
   width: 10%;
 }
+.navbar-toggler-icon{
+  width: 420px ;
+  
+}
 h1{
   color: grey;
   background-color: #F0F8FF;
+  height: 110px;
+  margin: auto;
+  text-decoration:none;
+}
+h2{
+  text-align: center;
+}
+p{
+  text-indent: 40px;
 }
 .navbar a:hover{
   background-color: #F0F8FF;
