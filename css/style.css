@@ -3,28 +3,45 @@ body{
   margin: 1%;
 }
 a:hover{
-
   text-decoration: none;
 }
 #logo{
-  width: 10%;
+  width: 64px;
+}
+#logo:hover{
+  transform:rotate(360deg);
+  transition-duration: 1.3s;
 }
 .navbar-toggler-icon{
-  width: 420px ;
-  
-}
+  width: ;
+  }
+
 h1{
+  font-size: 2.7em;
   color: grey;
   background-color: #F0F8FF;
   height: 110px;
   margin: auto;
   text-decoration:none;
+  font-family: 'Cabin Sketch', cursive;
+
+
 }
 h2{
   text-align: center;
+  color: darkred ;
+  height: 180px;
+  text-shadow: 4px 4px 4px 4px grey;
+}
 }
 p{
   text-indent: 40px;
+}
+.part{
+  font-size: 1.5em;
+}
+#liste{
+  font-size: 1.5em;
 }
 .navbar a:hover{
   background-color: #F0F8FF;
@@ -39,9 +56,14 @@ p{
   margin-top:
 }
 .konular{
-  background-color: #5F9EA0;
+  background-color: #00CED1;
   display: inline-block;
   height: 180px;
+  box-shadow: 0 0 4px 4px grey;
+}
+.konular:hover{
+  transform: scale();
+  transition-duration: 1s;
 }
 
 .konu_pic{
@@ -52,8 +74,6 @@ p{
 div{
   margin: 1%;
 }
-
-
 
 .words_caption{
   background-color: #2F4F4F;
