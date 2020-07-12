@@ -17,19 +17,19 @@ a:hover{
   }
 
 h1{
-  font-size: 2.7em;
+  font-size: 240%;
   color: grey;
   background-color: #F0F8FF;
   height: 110px;
   margin: auto;
   text-decoration:none;
-  
+
 
 
 }
 h2{
   text-align: center;
-  color: black ;
+  color:  rgb(45, 47, 48);
   height: 180px;
   text-shadow: 4px 4px 4px 4px grey;
 }
@@ -49,9 +49,10 @@ p{
 .nav-item{
   text-align: center;
 }
-.navbar-collapse{
-  height: 80%;
+.nav-link{
+font-size: 200%; 
 }
+
 .sıra{
   text-decoration: none;
   color: black;
@@ -59,7 +60,7 @@ p{
   margin-top:
 }
 .konular{
-  background-color: rgb(14, 89, 143);
+  background-color: #237c6e;
   display: inline-block;
   height: 180px;
   box-shadow: 0 0 4px 4px grey;
