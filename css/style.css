@@ -17,7 +17,7 @@ a:hover{
   }
 
 h1{
-  font-size: 240%;
+  font-size: 4.0em;
   color: grey;
   background-color: #F0F8FF;
   height: 110px;
@@ -35,7 +35,7 @@ h2{
 }
 }
 p{
-  text-indent: 40px;
+
 }
 .part{
   font-size: 1.5em;
@@ -50,7 +50,7 @@ p{
   text-align: center;
 }
 .nav-link{
-font-size: 200%; 
+font-size: 200%;
 }
 
 .sıra{
@@ -74,6 +74,10 @@ font-size: 200%;
   width: 15%;
   display: inline-block ;
 
+}
+.konu-explanation{
+  font-size: 160%;
+  text-indent: 40px;
 }
 div{
   margin: 1%;
