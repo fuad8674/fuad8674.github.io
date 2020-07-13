@@ -1,7 +1,7 @@
 body{
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
+  display: ;
+  min-height: ;
+  flex-direction: ;
   background-color: ;
   margin: 1%;
 }
@@ -19,15 +19,14 @@ a:hover{
   width: ;
   }
 
+
 h1{
-  font-size: 4.0em;
+  font-size: 170%;
   color: grey;
   background-color: #F0F8FF;
   height: 110px;
   margin: auto;
   text-decoration:none;
-
-
 
 }
 h2{
@@ -47,14 +46,12 @@ p{
   font-size: 1.5em;
 }
 .navbar a:hover{
-  background-color: #F0F8FF;
+  background-color: ;
 }
 .nav-item{
   text-align: center;
 }
-.nav-link{
-font-size: 200%;
-}
+
 
 .sıra{
   text-decoration: none;
