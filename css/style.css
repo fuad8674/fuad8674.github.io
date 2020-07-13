@@ -1,4 +1,7 @@
 body{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
   background-color: ;
   margin: 1%;
 }
@@ -33,7 +36,7 @@ h2{
   height: 180px;
   text-shadow: 4px 4px 4px 4px grey;
 }
-}
+
 p{
 
 }
@@ -79,6 +82,9 @@ font-size: 200%;
   font-size: 160%;
   text-indent: 40px;
 }
+.show{
+  font-size: 160%;
+}
 div{
   margin: 1%;
 }
@@ -86,5 +92,9 @@ div{
 .words_caption{
   background-color: #2F4F4F;
   margin: 1%;
+  text-align: center;
+}
+footer{
+  background-color: cadetblue;
   text-align: center;
 }
