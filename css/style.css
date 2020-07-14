@@ -53,8 +53,10 @@ p{
 }
 
 .carousel{
-  display: none;
-  width: 60%;
+  display: inline-block;
+  width: 55%;
+
+
 }
 
 .sıra{
@@ -136,6 +138,10 @@ div{
   }
   .sidebar{
     display: none;
+  }
+  .carousel{
+    width: 100%;
+    margin-left: 0px;
   }
 }
 
