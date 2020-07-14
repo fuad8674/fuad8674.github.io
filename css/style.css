@@ -53,6 +53,7 @@ p{
 }
 
 .carousel{
+  display: none;
   width: 60%;
 }
 
