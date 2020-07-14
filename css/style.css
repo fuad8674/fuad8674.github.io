@@ -63,14 +63,16 @@ p{
   text-decoration: none;
   color: black;
   text-align: center;
-  margin-top:
+
 }
 .konular{
   background-color: #237c6e;
   display: inline-block;
   height: 180px;
   margin: 1%;
+  padding: 1%;
   float: left;
+  overflow: hidden;
   box-shadow: 0 0 4px 4px grey;
 }
 .konular:hover{
@@ -132,7 +134,7 @@ div{
 
 
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 900px){
   h1{
     font-size: 180%;
   }
