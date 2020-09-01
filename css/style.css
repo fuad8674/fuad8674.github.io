@@ -1,0 +1,86 @@
+body{
+   
+}
+
+h1{
+    font-size: 32px;
+}
+
+footer{
+display: flex;
+width: 100%;
+line-height: 75px;
+
+
+}
+.isim{
+    font-family: 'Dancing Script', cursive;
+    font-size: 200%;
+}
+.nav-item{
+    text-align: center;
+}
+.konu{
+    display: inline-block;
+    width: 55%;
+    float: left;
+}
+body{
+    background-color:;
+    margin: 0.6%;
+    padding: %;
+}
+
+.search{
+    display: inline-block;
+    width: 30%;
+    margin-left: 4%;
+}
+
+.katogori{
+    display: inline-block;
+    width: 30%;
+    margin-left: 4%;
+ 
+}
+.sosyal{
+    display: inline-block;
+    width: 30%;
+    margin-left: 4%;
+}
+.foot{
+    display: inline-block;
+    
+}
+
+
+    @media screen and (min-width:900px){
+        .konu{
+            width: 55%;
+            margin-left: 6%;
+        }
+
+    }
+
+    @media screen and (max-width:900px){
+         .konu{
+            width: 80%;
+        }
+    }
+
+
+    @media screen and (min-width:500px) and (max-width:600px){
+        .konu{
+            width: 100%;
+            margin: %;
+        }
+        .search{
+            display: none;
+        }
+        .katogori{
+            display: none;
+        }
+        .sosyal{
+            display: none;
+        }
+    }
