@@ -63,10 +63,34 @@ body{
          .konu{
             width: 80%;
         }
+        .search{
+            display: none;
+        }
+        .katogori{
+            display: none;
+        }
+        .sosyal{
+            display: none;
+        }
     }
 
 
-    @media screen and (min-width:400px) and (max-width:768px){
+    @media screen and (min-width:576px) and (max-width:768px){
+        .konu{
+            width: 100%;
+          
+        }
+        .search{
+            display: none;
+        }
+        .katogori{
+            display: none;
+        }
+        .sosyal{
+            display: none;
+        }
+    }
+    @media screen and (max-width:576){
         .konu{
             width: 100%;
           
