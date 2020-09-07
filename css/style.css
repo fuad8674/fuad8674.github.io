@@ -1,6 +1,3 @@
-body{
-   
-}
 
 h1{
     font-size: 32px;
@@ -26,9 +23,9 @@ line-height: 75px;
     float: left;
 }
 body{
-    background-color:;
+   
     margin: 0.6%;
-    padding: %;
+ 
 }
 
 .search{
@@ -72,7 +69,7 @@ body{
     @media screen and (min-width:500px) and (max-width:600px){
         .konu{
             width: 100%;
-            margin: %;
+          
         }
         .search{
             display: none;
