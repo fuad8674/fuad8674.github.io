@@ -20,7 +20,7 @@ line-height: 75px;
 .konu{
     display: inline-block;
     width: 55%;
-    
+    float: left;
 }
 body{
    
@@ -98,6 +98,7 @@ body{
             display: none;
         }
     }
+    
     @media (max-width: 575.98px){
         .konu{
             width: 100%;
