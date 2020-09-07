@@ -21,6 +21,7 @@ line-height: 75px;
     display: inline-block;
     width: 55%;
     float: left;
+    box-shadow: 3px 3px 4px grey;
 }
 body{
    
@@ -69,7 +70,8 @@ body{
 
     @media (min-width: 768px) and (max-width: 991.98px) {
          .konu{
-            width: 80%;
+            width: 40%;
+            margin: 2%;
         }
         .search{
             display: none;
