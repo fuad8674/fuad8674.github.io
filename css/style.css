@@ -51,7 +51,7 @@ body{
 }
 
 
-    @media screen and (min-width:900px){
+    @media screen and (min-width:992px){
         .konu{
             width: 55%;
             margin-left: 6%;
@@ -59,14 +59,14 @@ body{
 
     }
 
-    @media screen and (max-width:900px){
+    @media screen and (min-width:768px) and (max-width:992px){
          .konu{
             width: 80%;
         }
     }
 
 
-    @media screen and (min-width:500px) and (max-width:600px){
+    @media screen and (min-width:576px) and (max-width:768px){
         .konu{
             width: 100%;
           
