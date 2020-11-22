@@ -7,16 +7,7 @@ h1{
     font-size: 32px;
 }
 
-footer{
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        color: white;
-        text-align: center;
 
-
-}
 .isim{
     font-family: 'Dancing Script', cursive;
     font-size: 200%;
@@ -42,26 +33,27 @@ footer{
     
 }
 
-.search{
-    display: inline-block;
-    width: 30%;
-    margin-left: 4%;
+.almanca_test{
+    display: inline;
+    background-color: #00e1ffd0;
+    width: 20%;
+    height: 30%;
+    float: left;
+    margin: 1%;
 }
 
-.katogori{
-    display: inline-block;
-    width: 30%;
-    margin-left: 4%;
- 
-}
-.sosyal{
-    display: inline-block;
-    width: 30%;
-    margin-left: 4%;
-}
 .foot{
     display: inline-block;
     
+}
+footer{
+     position: fixed;
+     left: 0;
+     bottom: 0;
+        width: 100%;
+        color: white;
+        text-align: center;
+    height: 10%;
 }
 
 
