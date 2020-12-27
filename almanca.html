@@ -43,18 +43,19 @@
           </ul>
         </div>
       </nav>
-      <h1>Kişisel Web Sayfası</h1>
+      <h1>Almanca Kelimeler</h1>
 </header>
 
 
 
-<div>
-
-<div id="kutu" class="almanca_test" onclick="words()">elma</div>
-<div id="kutu2" class="almanca_test_cevap" onclick="words2()">apfel</div>
 
 
-</div>
+<a href="#" id="kutu" class="almanca_test" onclick="words()">elma</a>
+<a href="#" id="kutu2" class="almanca_test_cevap" onclick="words2()">apfel</a>
+
+
+
+
 
 
 
@@ -73,13 +74,13 @@
 
 <script>
 function words(){
-  document.getElementById("kutu").style.opacity=0;
-  document.getElementById("kutu2").style.opacity=1;
+  document.getElementById("kutu").style.zIndex=1;
+  document.getElementById("kutu2").style.zIndex=2;
 }
 
 function words2(){
-  document.getElementById("kutu").style.opacity=1;
-  document.getElementById("kutu2").style.opacity=0;
+  document.getElementById("kutu").style.zIndex=2;
+  document.getElementById("kutu2").style.zIndex=1;
 }
 
 </script>
