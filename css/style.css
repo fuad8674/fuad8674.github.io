@@ -1,9 +1,7 @@
 body{
    
     margin: auto;
-
 }
-
 
 h1{
     font-size: 32px;
@@ -14,9 +12,24 @@ form{
     margin: auto;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+img{
+    border-radius: 1%;
+
+}
 .card{
 
     margin: auto;
+    margin-bottom: 2%;
     width: 40rem;
 }
 
@@ -26,7 +39,7 @@ form{
 
 .isim{
     font-family: 'Dancing Script', cursive;
-    font-size: 200%;
+    font-size: 300%;
 }
 
 .profil{
@@ -67,16 +80,16 @@ form{
     text-align: center;
 }
 
-
-a{
-    text-decoration: none;
-    color: black;
+.null{
+    padding: 1%;
+}
+td{
+    text-align: center;
 }
 
-a:hover{
-    text-decoration: none;
-    color: black;
-}
+
+
+
 
 
 
