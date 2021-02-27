@@ -1,6 +1,7 @@
 body{
    
     margin: auto;
+   
 }
 
 h1{
@@ -31,6 +32,14 @@ img{
     margin: auto;
     margin-bottom: 2%;
     width: 40rem;
+}
+
+.card-img{
+    width: 100%;
+}
+
+.btn{
+    color: aliceblue;
 }
 
 .container{
@@ -83,13 +92,14 @@ img{
 .null{
     padding: 1%;
 }
+
+.myself{
+    width: 70%;
+}
+
 td{
     text-align: center;
 }
-
-
-
-
 
 
 
@@ -110,13 +120,13 @@ td{
 
     #kutu{
         display: inline-block;
-        width: 100%;
+        width: 95%;
         margin: 1%;
     }
 
     #kutu2{
         display: inline-block;
-        width: 100%;
+        width: 95%;
         margin: 1%;
      }
 
