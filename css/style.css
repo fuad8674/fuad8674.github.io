@@ -29,7 +29,13 @@ img{
 }
 
 footer{ 
-    color: floralwhite;
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
 }
 .card{
 
@@ -166,8 +172,3 @@ td{
 }
 
 
-@media screen and (min-width: 993px){
-
-
-
-}
