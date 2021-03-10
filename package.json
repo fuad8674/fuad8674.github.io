@@ -4,7 +4,9 @@
   "description": "My Bloog",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "node --version",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config prod.config.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/fuadyerdelen/fuadyerdelen.github.io/issues"
   },
-  "homepage": "https://github.com/fuadyerdelen/fuadyerdelen.github.io#readme"
+  "homepage": "https://github.com/fuadyerdelen/fuadyerdelen.github.io#readme",
+  "dependencies": {
+    "webpack": "^5.24.4"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.5.0"
+  }
 }
