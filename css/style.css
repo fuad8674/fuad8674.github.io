@@ -29,11 +29,9 @@ img{
 }
 
 footer{ 
-    position: static;
-    left: 0;
-    bottom: 0;
+    position: fixed;
     width: 100%;
-    background-color: red;
+    bottom: 0px;
     color: white;
     text-align: center;
 }

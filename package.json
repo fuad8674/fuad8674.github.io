@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/fuadyerdelen/fuadyerdelen.github.io#readme",
   "dependencies": {
+    "bootstrap": "^5.0.0-beta2",
     "webpack": "^5.24.4"
   },
   "devDependencies": {
