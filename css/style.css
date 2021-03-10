@@ -25,7 +25,8 @@ a:hover{
 
 img{
     border-radius: 1%;
-
+    height: auto;
+    size: 20em;
 }
 
 footer{ 
@@ -35,6 +36,7 @@ footer{
     color: white;
     text-align: center;
 }
+
 .card{
 
     margin: auto;
@@ -42,10 +44,6 @@ footer{
     width: 40rem;
 }
 
-.card-img{
-    width: 100%;
-    height: auto;
-}
 
 .btn{
     color: aliceblue;
